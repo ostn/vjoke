@@ -20,7 +20,7 @@ define(['angular-amd'], function($amd) {
 		.state($amd.route({
 			name: 'home', 
 			url: '/home',
-			// cache: 'true',
+			cache: 'true',
 			templateUrl: 'views/home/index.html',
 			controllerUrl: 'views/home/index.js',
 			css: ['views/home/index.css']
