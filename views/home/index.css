@@ -1,0 +1,34 @@
+#menu-bar img {
+	vertical-align: initial;
+}
+
+#menu-bar {
+	position: absolute;
+	bottom: 30px;
+	padding-top: 50px;
+	text-align: center;
+	width: 100%;
+	transition: all .25s ease-out;
+}
+
+#menu-bar a {
+	display: inline-block;
+	text-decoration: none;
+	margin: auto 5px;
+	cursor: pointer;
+}
+
+#menu-bar a .title {
+	display: none;
+	color: #fff;
+	font-size: 13px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+#menu-bar a .title {
+	display: block;
+}
+
+
+

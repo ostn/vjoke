@@ -1,0 +1,15 @@
+<div class="container-fluid">
+    <div class="main-content">
+    	<!-- <div ui-view class="text-center anim-in-out anim-fade" data-anim-speed="500" data-anim-sync="false"></div> -->
+    	<!-- <div ui-view class="anim-in-out anim-slide-left" data-anim-speed="200" data-anim-sync="false"></div> -->
+    	<!-- <div ui-view class="anim-in-out anim-slide-right" data-anim-speed="500" data-anim-sync="false"></div> -->
+    	<div ui-view class="text-center anim-in-out anim-zoom-out-full" data-anim-speed="500" data-anim-sync="false"></div>
+    	<!-- <div ui-view class="anim-in-out anim-slide-below-fade" data-anim-speed="500" data-anim-sync="false"></div> -->
+    </div>
+	<div id="menu-bar" class="row" ng-mousemove="hover($event)">
+		<a ng-repeat="item in menus" ng-click="toSubPage(item.name)">
+			<div class="title">{{ item.label }}</div>
+			<img ng-src="{{ item.uri }}" width="64">
+		</a>
+    </div>
+</div>
