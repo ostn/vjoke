@@ -1,5 +1,9 @@
 define([], function() {
 	return function ($rootScope, $scope) {
+		
+		$scope.username = "admin";
+		$scope.pwd = "password";
+		
 		var bool = false;
 		$scope.login = function() {
 			if (bool == false) {
