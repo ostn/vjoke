@@ -33,10 +33,6 @@ footer a {
 	border-bottom: 1px solid #eee;
 }
 
-#menu-bar:hover {
-	bottom: 10px;
-}
-
 #menu-bar img {
 	vertical-align: initial;
 }
@@ -49,6 +45,10 @@ footer a {
 	text-align: center;
 	width: 100%;
 	transition: all .27s ease-out;
+}
+
+#menu-bar:hover {
+	bottom: 10px;
 }
 
 #menu-bar a {
