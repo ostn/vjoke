@@ -37,10 +37,40 @@ define(['setting'], function(Setting) {
 				uri: Setting.imageUrl + 'menu/video.png'
 			},
 			{
+				name: 'files',
+				label: '文档',
+				uri: Setting.imageUrl + 'menu/files.png'
+			},
+			{
+				name: 'wechat',
+				label: '微信',
+				uri: Setting.imageUrl + 'menu/wechat.png'
+			},
+			{
+				name: 'qq',
+				label: 'QQ',
+				uri: Setting.imageUrl + 'menu/qq.png'
+			},
+			{
+				name: 'wifi',
+				label: 'WIFI',
+				uri: Setting.imageUrl + 'menu/wifi.png'
+			},
+			{
+				name: 'taobao',
+				label: '淘宝',
+				uri: Setting.imageUrl + 'menu/taobao.png'
+			},
+			{
+				name: 'sina',
+				label: '微博',
+				uri: Setting.imageUrl + 'menu/sina.png'
+			},
+			{
 				name: 'profile',
 				label: '个人信息',
 				uri: Setting.imageUrl + 'menu/settings.png'
-			}
+			},
 		];
 
 		$scope.toSubPage = function(name) {

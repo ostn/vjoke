@@ -2,7 +2,12 @@ body,
 html {
 	height: 100%;
 	width: 100%;
-	background-color: #989898;
+	background-color: #282c34;
+	/* background-image: linear-gradient(to right , #7A88FF, #7AFFAF); */
+	/* background-image: linear-gradient(to bottom , #7A88FF, #7AFFAF); */
+	/* background-image: linear-gradient(to bottom right, #7A88FF, #7AFFAF); */
+	/* background-image: linear-gradient(45deg, #7A88FF, #7AFFAF); */
+	/* background-image: repeating-radial-gradient(circle at 20% 40%,#99CCCC 20px, #7171B7 20px, #7171B7 40px, #CCCC99 40px, #CCCC99 60px, #4F9C9C 60px, #4F9C9C 80px, #99CCCC 80px, #99CCCC 100px); */
 }
 
 footer {
@@ -57,6 +62,11 @@ footer a {
 
 #menu-bar a .title {
 	display: block;
+}
+
+.frame-nav {
+	width: 100%;
+	height: 100%;
 }
 
 

@@ -52,6 +52,54 @@ define(['angular-amd'], function($amd) {
 			templateUrl: 'views/video/index.html',
 			controllerUrl: 'views/video/index.js'
 		}))
+		/* 文档 */
+		.state($amd.route({
+			name: 'home.files', 
+			url: '/files',
+			templateUrl: 'views/files/index.html',
+			controllerUrl: 'views/files/index.js',
+			css: ['views/files/index.css']
+		}))
+		/* 微信 */
+		.state($amd.route({
+			name: 'home.wechat', 
+			url: '/wechat',
+			templateUrl: 'views/wechat/index.html',
+			controllerUrl: 'views/wechat/index.js',
+			css: ['views/wechat/index.css']
+		}))
+		/* QQ */
+		.state($amd.route({
+			name: 'home.qq', 
+			url: '/qq',
+			templateUrl: 'views/qq/index.html',
+			controllerUrl: 'views/qq/index.js',
+			css: ['views/qq/index.css']
+		}))
+		/* WIFI */
+		.state($amd.route({
+			name: 'home.wifi', 
+			url: '/wifi',
+			templateUrl: 'views/wifi/index.html',
+			controllerUrl: 'views/wifi/index.js',
+			css: ['views/wifi/index.css']
+		}))
+		/* 淘宝 */
+		.state($amd.route({
+			name: 'home.taobao', 
+			url: '/taobao',
+			templateUrl: 'views/taobao/index.html',
+			controllerUrl: 'views/taobao/index.js',
+			css: ['views/taobao/index.css']
+		}))
+		/* 微博 */
+		.state($amd.route({
+			name: 'home.sina', 
+			url: '/sina',
+			templateUrl: 'views/sina/index.html',
+			controllerUrl: 'views/sina/index.js',
+			css: ['views/sina/index.css']
+		}))
 		/* 个人信息 */
 		.state($amd.route({
 			name: 'home.profile', 
